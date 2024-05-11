@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(12, 45, 134);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    padding: 3px 5px;
+    background-color: #457bcc;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #457bcc;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  main {
+    padding: 20px;
+    background-color: #457bcc;
+  }
+
+ 
+
+
+
+.slashas{
+    background-color: rgb(12, 45, 134);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.servicios {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.lista_servicios{
+    background-color: rgb(12, 45, 134);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f1f2f3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.testimonial {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonial-content p {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-content cite {
+    font-weight: bold;
+  }
